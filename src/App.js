@@ -25,7 +25,7 @@ const QuizApp = () => {
   }, [timer]);
 
   useEffect(() => {
-    if (timer === 29) {
+    if (timer === 20) {
       setIsAnswerable(true);
     }
   }, [timer]);
